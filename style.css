@@ -1,0 +1,84 @@
+.parent__container{
+    border: 3px solid red;
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    border-radius: 20px;
+    position: relative;
+    cursor: url('./images/cursor-hammer-one.png'),auto;
+}
+
+.holes{
+    width: 70px;
+    height: 70px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.hole__one{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hole__two{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hole__three{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hole__four{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hole__five{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hole__six{
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rabbit__img{
+    animation-name: rabbit;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes rabbit {
+  from {width: 0px;height:0px}
+  to {width: 90px;height:90px}
+}
