@@ -13,6 +13,7 @@
     height: 70px;
     border: 2px solid red;
     border-radius: 50%;
+
 }
 
 .hole__one{
@@ -80,5 +81,5 @@
 
 @keyframes rabbit {
   from {width: 0px;height:0px}
-  to {width: 90px;height:90px}
+  to {width: 80px;height:80px}
 }
